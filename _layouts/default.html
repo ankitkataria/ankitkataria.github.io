@@ -4,13 +4,19 @@
 {% include head.html %}
 
 <body>
-  <nav>
-  	<div class="nav-btn">
-  		<i class="fa fa-bars"></i>
-  	</div>	
-  	<div class="nav-list">
+  <div class="nav-btn" onclick="navOpen()">
+  	<i class="fa fa-bars"></i>
+  </div>	
+  <div class="nav-list">
+  	<div class="nav-close" onclick="navOpen()">
+  		&times;
   	</div>
-  </nav>
+  	<ul class="nav-links">
+  		<li> About </li>
+  		<li> Writing </li>
+  		<li> Contact </li>
+  	</ul>
+  </div>
   <div class = "left-pane"></div>
   <div class="container">
     {% include header.html %}
@@ -22,6 +28,18 @@
     {% include footer.html %}
 
   </div>
+  <script type="text/javascript">
+  	const leftPane= document.getElementsByClassName('left-pane')[0];
+  	const container = document.getElementsByClassName('container')[0];
+  	const navList = document.getElementsByClassName('nav-list')[0];
+
+  	function navOpen(){
+  		leftPane.classList.toggle('open');
+  		container.classList.toggle('open');
+  		navList.classList.toggle('open');
+  	}
+
+  </script>
 
 </body>
 </html>

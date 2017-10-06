@@ -1,7 +1,11 @@
 /*
   Base
 */
-
+html{
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
 body {
   font-family: "PT Serif", Georgia, "Times New Roman", serif;
   font-size: 18px;
@@ -72,6 +76,7 @@ blockquote p {
 */
 
 .container {
+  transition: 0.5s ease;
   margin-left: 40%;
   width: 50vw;
 }
@@ -436,6 +441,7 @@ pre {
 }
 
 .left-pane{
+  transition: 0.5s ease;
   position: fixed;
   height: 100%;
   z-index: 999;
@@ -451,9 +457,65 @@ pre {
 @media (max-width: 768px){
   .left-pane{
     height: 50vh; 
-    width:100%;
+    width:100vw;
     position: relative;
     margin: 0;
     background-position: 0% 50%;
+    top:-10px;
+    left:-10px;
   }
+}
+
+.nav-btn{
+  position: fixed;
+  top: 1.2%;
+  left:1.1%;
+  z-index: 1000;
+  cursor: default;
+  padding: 0.1rem 0.3rem;
+  font-size: 1.5rem;
+  background: #202020;
+  color: rgb(154,154,154);
+  border-radius: 5px;
+  transition: 0.5s ease;
+}
+
+.nav-btn:hover{
+  color: rgb(245,239,239);
+}
+
+.nav-list{
+  transition: 0.5s ease;
+  position:fixed;
+  width: 250px;
+  top:0;
+  left:-250px;
+  height: 100%;
+  z-index: 1005;
+  color: white;
+  background: #202020;
+}
+
+.nav-close{
+  position: absolute;
+  top: 6px;
+  right: 10px;
+  font-size: 2.5rem;
+  cursor: default;
+  color: rgb(154,154,154);
+}
+
+.nav-links {
+  list-style-type: none;
+  margin-top: 30%;
+  font-size: 1rem;
+  color: rgb(154,154,154);
+}
+
+.nav-links li{
+  padding: 8px;
+}
+
+.open{
+  transform: translateX(250px);
 }
