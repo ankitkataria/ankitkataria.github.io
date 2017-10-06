@@ -12,9 +12,9 @@
   		&times;
   	</div>
   	<ul class="nav-links">
-  		<li> About </li>
-  		<li> Writing </li>
-  		<li> Contact </li>
+  		{% for item in site.data.settings.menu %}
+       		<li> <a href="{{ site.url }}/{{ item.path }}/{{ item.url }}">{{ item.name }}</a> </li>
+    	{% endfor %}
   	</ul>
   </div>
   <div class = "left-pane"></div>

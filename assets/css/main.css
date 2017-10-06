@@ -472,7 +472,7 @@ pre {
   left:1.1%;
   z-index: 1000;
   cursor: default;
-  padding: 0.1rem 0.3rem;
+  padding: 0.03rem 0.3rem;
   font-size: 1.5rem;
   background: #202020;
   color: rgb(154,154,154);
@@ -503,6 +503,11 @@ pre {
   font-size: 2.5rem;
   cursor: default;
   color: rgb(154,154,154);
+  transition: 0.3s ease;
+}
+
+.nav-close:hover{
+  color:rgb(245,239,239);
 }
 
 .nav-links {
@@ -514,6 +519,17 @@ pre {
 
 .nav-links li{
   padding: 8px;
+}
+
+.nav-links a:link,.nav-links a:visited{
+  text-decoration: none;
+  color: rgb(154,154,154);
+  transition: 0.3s ease;
+  cursor: default;
+}
+
+.nav-links a:hover{
+  color: rgb(245,239,239);
 }
 
 .open{
