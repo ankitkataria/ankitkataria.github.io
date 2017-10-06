@@ -1,3 +1,12 @@
-<div class="left-pane">
-	Hey I'm Ankit Who are You? 
+<div class="left-pane-text">
+  <h3 class="left-pane-text-title">
+    <a href="{{ site.url }}/">{{ site.data.settings.title }}</a>
+    <br>
+    <small class="left-pane-text-subtitle">{{ site.data.settings.tagline }}</small>
+  </h3>
+  <div class="left-pane-social-container">
+	  {% for item in site.data.settings.social %}
+	    <a href="{{ item.link }}" target="_blank"><i class="fa fa-{{ item.icon }} left-pane-social" aria-hidden="true"></i></a>
+	  {% endfor %}
+  </div>
 </div>
