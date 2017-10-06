@@ -1,7 +1,7 @@
 # Site Settings
 
 paginate:            5
-url: https://ankitkataria.github.io/Blog/
+url: https://ankitkataria.github.io/Blog
 
 # Build settings
 markdown:            kramdown
