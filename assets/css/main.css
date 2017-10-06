@@ -72,21 +72,16 @@ blockquote p {
 */
 
 .container {
-  margin-left: auto;
-  margin-right: auto;
-  width: 615px;
-}
-
-@media (max-width: 1366px) {
-  .container {
-    width: 45vw;
-  }
+  margin-left: 40%;
+  width: 50vw;
 }
 
 /*48em*/
 
 @media (max-width: 768px) {
   .container {
+    margin-left: auto;
+    margin-right: auto;
     width: 90vw;
   }
 }
@@ -438,4 +433,27 @@ pre {
 
 .fa-rss-square:hover {
 	color: #ff6600;
+}
+
+.left-pane{
+  position: fixed;
+  height: 100%;
+  z-index: 999;
+  width: 30vw;
+  top: 0;
+  left: 0;
+  background-image: url('https://images.unsplash.com/photo-1504812445817-cb3d4f235a14');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+
+@media (max-width: 768px){
+  .left-pane{
+    height: 50vh; 
+    width:100%;
+    position: relative;
+    margin: 0;
+    background-position: 0% 50%;
+  }
 }

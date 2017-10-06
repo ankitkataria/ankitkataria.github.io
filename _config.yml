@@ -1,12 +1,16 @@
 # Site Settings
 
 paginate:            5
+url: http://localhost:4000
 
 # Build settings
 markdown:            kramdown
 highlighter:         rouge
 permalink:           none
-plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed]
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
 
 # Customise feed settings (uncommenting following two fields to customise feed title and description)
 #title:		     "Lagrange-Custom"
