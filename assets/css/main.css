@@ -96,24 +96,15 @@ blockquote p {
 */
 
 .masthead {
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-  margin-bottom: 4rem;
-  font-family: "Quattrocento Sans", sans-serif;
-}
-
-.masthead a:hover {
-  color:black;
-}
-
-.masthead-title a {
   font-size: 2rem;
-  text-decoration: none;
-  color: #505050;
+  padding-top: 0.5rem;
+  font-family: "Quattrocento Sans", sans-serif;
+  margin-bottom: 1.8em;
+  border-bottom: 0.1px solid #505050;
 }
 
-.masthead-subtitle {
-  color: #999;
+.masthead-title{
+  margin-bottom: 0.5rem;
 }
 
 /*
@@ -575,4 +566,11 @@ pre {
 .left-pane-social {
   font-size: 1.2rem;
   color: rgba(255,255,255,0.86);
+}
+
+/* POSTS */
+
+.post-title {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
