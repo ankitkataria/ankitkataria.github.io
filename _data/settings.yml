@@ -13,6 +13,7 @@ tagline: Full Stack Web Developer
 menu:
 - {name: 'About', path: 'menu', url: 'about.html'}
 - {name: 'Writing', path: 'menu', url: 'writing.html'}
+- {name: 'Resume', path: 'menu', url: 'Resume/resumerevamp.pdf'}
 - {name: 'Contact', path: 'menu', url: 'contact.html'}
 
 social:

@@ -4,22 +4,13 @@
 {% include head.html %}
 
 <body>
-  <div class="nav-btn" onclick="navOpen()">
-  	<i class="fa fa-bars"></i>
-  </div>	
-  <div class="nav-list">
-  	<div class="nav-close" onclick="navOpen()">
-  		&times;
-  	</div>
-  	<ul class="nav-links">
-  		{% for item in site.data.settings.menu %}
-       		<li> <a href="{{ site.url }}/{{ item.path }}/{{ item.url }}">{{ item.name }}</a> </li>
-    	{% endfor %}
-  	</ul>
-  </div>
+
+  {% include left-nav.html %} 
+
   <div class = "left-pane">
   	{% include left-pane.html %}
   </div>
+
   <div class="container">
     <div class="post-container">
       {{ content }}
@@ -28,18 +19,7 @@
     {% include footer.html %}
 
   </div>
-  <script type="text/javascript">
-  	const leftPane= document.getElementsByClassName('left-pane')[0];
-  	const container = document.getElementsByClassName('container')[0];
-  	const navList = document.getElementsByClassName('nav-list')[0];
-
-  	function navOpen(){
-  		leftPane.classList.toggle('open');
-  		container.classList.toggle('open');
-  		navList.classList.toggle('open');
-  	}
-
-  </script>
+  <script type="text/javascript" src="{{ site.url }}/assets/js/script.js"></script>
 
 </body>
 </html>
