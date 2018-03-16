@@ -1,5 +1,5 @@
 title:  Ankit Kataria
-tagline: Full Stack Web Developer 
+tagline: Web Developer - Security Enthusiast 
 
 # Authors documented under _data
 
@@ -21,6 +21,6 @@ social:
 - {icon: 'twitter', link: 'https://twitter.com/ankitkataria28'}
 - {icon: 'linkedin', link: 'http://www.linkedin.com/in/ankitkataria28/'}
 - {icon: 'envelope', link: 'mailto:me@ankitkataria.co'}
-- {icon: 'rss-square', link: 'feed.xml'}
+# - {icon: 'rss-square', link: 'feed.xml'}
 
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer

@@ -8,6 +8,11 @@
 	<ul class="nav-links">
 		{% for item in site.data.settings.menu %}
      		<li> <a href="{{ site.url }}/{{ item.path }}/{{ item.url }}">{{ item.name }}</a> </li>
-  	{% endfor %}
+  		{% endfor %}
+		<li> 
+			<a class="" href="{{site.url}}/feed.xml">
+				<div class="contact__link"> RSS </div>
+			</a>
+		</li>
 	</ul>
 </div>
