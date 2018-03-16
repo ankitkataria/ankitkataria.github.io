@@ -11,16 +11,18 @@ tagline: Web Developer - Security Enthusiast
 # google-ID: 'UA-80213386-1'
 
 menu:
-- {name: 'About', path: 'menu', url: 'about.html'}
-- {name: 'Writing', path: 'menu', url: 'writing.html'}
-- {name: 'Resume', path: 'menu', url: 'Resume/resumerevamp.pdf'}
-- {name: 'Contact', path: 'menu', url: 'contact.html'}
+- {name: 'Home', path: 'index.html'}
+- {name: 'Blog', path: 'blog'}
+- {name: 'Archive', path: 'archive'}
+- {name: 'Resume', path: 'resume/latest.pdf'}
+- {name: 'Contact', path: 'contact'}
 
 social:
 - {icon: 'github', link: 'https://www.github.com/ankitkataria'}
 - {icon: 'twitter', link: 'https://twitter.com/ankitkataria28'}
 - {icon: 'linkedin', link: 'http://www.linkedin.com/in/ankitkataria28/'}
 - {icon: 'envelope', link: 'mailto:me@ankitkataria.co'}
+- {icon: 'facebook', link: 'https://www.facebook.com/ankitkataria28'}
 # - {icon: 'rss-square', link: 'feed.xml'}
 
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer

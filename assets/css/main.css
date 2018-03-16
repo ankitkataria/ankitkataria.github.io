@@ -628,3 +628,37 @@ pre {
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
+
+/* ABOUT PAGE */
+
+.about__image {
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.about__image img{
+  border-radius: 50%;
+  width: 12rem;
+}
+
+.image__description {
+  text-align: center;
+  width: 100%;
+  font-family: "Quattrocento Sans", sans-serif;
+  margin: 1rem auto;
+}
+
+.about__description {
+  margin-top: 1rem;
+  width: 100%;
+  font-family: "Quattrocento Sans", sans-serif;
+}
+
+  .color--important {
+    color: black;
+    font-weight: 500;
+  }
+
+  .blog__link {
+    text-decoration: none; 
+  }
