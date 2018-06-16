@@ -14,7 +14,7 @@ menu:
 - {name: 'Home', path: 'index.html'}
 - {name: 'Blog', path: 'blog'}
 - {name: 'Archive', path: 'archive'}
-- {name: 'Resume', path: 'resume/latest.pdf'}
+- {name: 'Resume', path: 'resume/resume.pdf'}
 - {name: 'Contact', path: 'contact'}
 
 social:
