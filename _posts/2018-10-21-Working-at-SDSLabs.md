@@ -1,7 +1,7 @@
 ---
 layout: post
-Title: "Working at SDSLabs"
-Author: "Ankit Kataria"
+title: "Working at SDSLabs"
+author: "Ankit Kataria"
 category: journal
 image:
   feature: sdslabs.jpg
