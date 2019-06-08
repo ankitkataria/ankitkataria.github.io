@@ -5,7 +5,6 @@ author: "Ankit Kataria"
 category: journal
 image:
   feature: sdslabs.jpg
-  teaser: sdslabs.jpg
 ---
 
 _SDSLabs_, most generically put, is a group of software development enthusiasts aimed at fostering technical activities in the campus of IIT Roorkee. Before I dive into how my experience has been in the group, let me introduce myself. 

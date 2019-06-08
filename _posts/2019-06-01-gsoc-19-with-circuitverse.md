@@ -5,7 +5,6 @@ author: "Ankit Kataria"
 category: journal
 image:
   feature: gsoc-cover.jpeg
-  teaser: gsoc-cover.jpeg
 ---
 
 
