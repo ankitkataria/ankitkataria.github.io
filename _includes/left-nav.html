@@ -1,10 +1,10 @@
-<div class="nav-btn" onclick="navOpen()">
-  <i class="fa fa-bars"></i>
-</div>	
 <div class="nav-list">
-	<div class="nav-close" onclick="navOpen()">
+	<div class="nav-btn" onclick="navOpen()">
+	  <i class="fa fa-bars"></i>
+	</div>	
+	<!-- <div class="nav-close" onclick="navOpen()">
 		&times;
-	</div>
+	</div> -->
 	<ul class="nav-links">
 		{% for item in site.data.settings.menu %}
      		<li> <a href="{{ site.url }}/{{ item.path }}">{{ item.name }}</a> </li>
@@ -15,4 +15,8 @@
 			</a>
 		</li>
 	</ul>
+
+	<div class="left-nav--image">
+		<img src="{{site.url}}/assets/img/profile.jpg">
+	</div>
 </div>

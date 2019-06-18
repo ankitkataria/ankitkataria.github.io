@@ -2,18 +2,37 @@
 layout: page
 ---
 
-<div class="about__image">
-  <img src="{{site.url}}/assets/img/profile.jpg">
-</div>
+{% include header.html %}
 
-<div class="image__description">
-  <span class="color--important"> Eat</span> | <span class="color--important">Sleep</span> | <span class="color--important">Learn</span> | <span class="color--important">Repeat</span>
-</div>
+{{ paginator.posts.as_json }}
 
-<div class="about__description">
-  Junior at <span class="color--important"> IIT Roorkee </span><br>
-  Developer at <span class="color--important">SDSLabs</span> and <span class="color--important">Watch Out! News Agency</span><br>
-  A curious and highly motivated being by nature, driven by the constant urge to learn and adapt to new technologies<br>
-  Nurtures the creative self through indulging in <span class="color--important">Photography</span> and <span class="color--important">Music</span>, also a part-time <span class="color--important">Speedcuber</span> :) <br>
-  Do checkout my <a class="blog__link" href="{{site.url}}/blog/">Blog!</a>
+{% for post in paginator.posts %}
+<div class="posts">
+  <h1>
+    <a href="{{ post.url }}">{{ post.title }}</a>
+  </h1>
+  {% if post.image.teaser %}
+    <a href="{{ post.url }}"><img src="/assets/img/{{ post.image.teaser }}"></a>
+  {% endif %}
+  <p>
+    {{ post.content | strip_html | truncate: 350 }} <a href="{{ post.url }}">Read more</a>
+    <span class="post-date"><i class="fa fa-calendar" aria-hidden="true"></i> {{ post.date | date_to_string }} - <i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</span>
+  </p>
+</div>
+{% endfor %}
+
+<!-- Pagination links -->
+<div class="pagination">
+  {% if paginator.next_page %}
+    <a class="pagination-button pagination-active" href="{{ paginator.next_page_path }}" class="next">Older</a>
+  {% else %}
+    <span class="pagination-button">Older</span>
+  {% endif %}
+
+  {% if paginator.previous_page %}
+    <a class="pagination-button pagination-active" href="{{ site.baseurl }}{{ paginator.previous_page_path }}">Newer</a>
+    {% else %}
+      <span class="pagination-button">Newer</span>
+  {% endif %}
+
 </div>

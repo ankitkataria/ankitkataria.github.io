@@ -12,7 +12,7 @@ disqus:
 
 menu:
 - {name: 'Home', path: 'index.html'}
-- {name: 'Blog', path: 'blog'}
+# - {name: 'About', path: 'about' }
 - {name: 'Archive', path: 'archive'}
 - {name: 'Resume', path: 'resume/resume.pdf'}
 - {name: 'Contact', path: 'contact'}
