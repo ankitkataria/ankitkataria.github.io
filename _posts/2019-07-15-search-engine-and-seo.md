@@ -35,8 +35,8 @@ Custom error pages play a crucial role in improving SEO of a website. How the us
 Meta tags help web crawlers to better understand the content of the page. They can also help in making content more discoverable on social platforms like Twitter and Facebook. After addition of Open Graph and Twitter meta tags, shared content on these platforms looked like this. 
 
 <p align="center" style="display: flex">
-	<img src="/assets/img/fb_card.png" style="width: 49%; height: auto; padding: 10px">
-	<img src="/assets/img/twitter_card.png" style="width: 40%; height: auto; padding: 10px">
+	<img src="/assets/img/fb_card.png" style="width: 49%; height: 49%; padding: 10px">
+	<img src="/assets/img/twitter_card.png" style="width: 40%; height: 40%; padding: 10px">
 </p>
 
 It’s a little tricky to test these meta tags for what cards they will produce. For testing, [Facebook URL Debugger](https://developers.facebook.com/tools/debug/) and [Twitter Card Validator](https://cards-dev.twitter.com/validator) are used. But, these debuggers don’t work with local content. I used [localtunnel](https://github.com/localtunnel/localtunnel) to create a network tunnel to make localhost accessible publicly. Say, your server is running at port: 3000. Then the following generates a random URL that tunnels all traffic to your localhost. 
