@@ -24,7 +24,7 @@ Also, checkout the blog series I did on my awesome journey [here](https://ankitk
 
 ### Backend tests
 
-I worked on adding n RSpec based test suite from scratch. The test coverage increased from 0 to 83%. With this, I also set up Coveralls for comprehensive coverage reports on contributions.
+I worked on adding an RSpec based test suite from scratch. The test coverage increased from 0 to 83%. With this, I also set up Coveralls for comprehensive coverage reports on contributions.
 
 Pull Requests: 
 [#148](https://github.com/CircuitVerse/CircuitVerse/pull/148), [#241](https://github.com/CircuitVerse/CircuitVerse/pull/241), [#391](https://github.com/CircuitVerse/CircuitVerse/pull/403), [#403](https://github.com/CircuitVerse/CircuitVerse/pull/403) (All merged)
@@ -52,7 +52,7 @@ Blog post: [Init: Assignment Grading](https://ankitkataria.me/journal/week-2-gso
 
 ### Restricting Circuit Elements
 
-This feature addition gave mentors a way to restrict the circuit elements used inside assignments. Students will be shown warning on using restricted elements which will also be visible to the mentor while grading. It involved work in both the front and back end. I gained a lot of insight into how the various front end components worked inside the javascript simulator while working on this task.
+This feature addition gave mentors a way to restrict the circuit elements used inside assignments. Students will be shown a warning on using restricted elements which will also be visible to the mentor while grading. It involved work in both the front and back end. I gained a lot of insight into how the various front end components worked inside the javascript simulator while working on this task.
 
 Pull Requests: 
 Code merged in [#397](https://github.com/CircuitVerse/CircuitVerse/pull/397) ( [#392](https://github.com/CircuitVerse/CircuitVerse/pull/392) Original PR)
@@ -72,7 +72,7 @@ Pull request: [#261](https://github.com/CircuitVerse/CircuitVerse/pull/261) (Mer
 
 ### SEO Improvements
 
-There was a very basic SEO implementation in the present code base. After extensive research, I added SEO improvements for Facebook, Twitter and Google. 
+There was a very basic SEO implementation in the present codebase. After extensive research, I added SEO improvements for Facebook, Twitter and Google. 
 
 Pull request: [#406](https://github.com/CircuitVerse/CircuitVerse/pull/406)(Merged)
 
@@ -118,7 +118,7 @@ Blog post: [Final Phase and Bucket Lists](http://ankitkataria.me/journal/final-p
 
 ### Work left
 
-Currently, I’m working on implementing a staging environment for CircuitVerse. It was addition suggested by me in the proposal and is being actively worked on right now. The basic idea is having a special branch that deploys an image of the repository to a staging environment so that it can be tested by all the developers. It’s major application will be in testing simulator feature additions. 
+Currently, I’m working on implementing a staging environment for CircuitVerse. It was an addition suggested by me in the proposal and is being actively worked on right now. The basic idea is having a special branch that deploys an image of the repository to a staging environment so that it can be tested by all the developers. It’s major application will be in testing simulator feature additions. 
 
 ### GSoC Experience
 
