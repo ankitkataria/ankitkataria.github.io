@@ -6,7 +6,7 @@ category: journal
 image:
 ---
 
-This week, I was working on implementing search improvements [#402](https://github.com/CircuitVerse/CircuitVerse/pull/402) and SEO [#406](https://github.com/CircuitVerse/CircuitVerse/pull/406) to our website. In the [previous](http://ankitkataria.me/journal/phase-2-init.html) blog, I had mentioned that we had decided to go with implementing search with both Postgres and sunspot. This week I was working on getting the Postgres part done. I extended pg_search support to the User model and did the required UI changes to accommodate both User and Project search. Also, Postgres bindings were added so that Projects could be found with author names and tags. Here's what the supercharged search bar looks like - 
+This week, I was working on implementing search improvements [#402](https://github.com/CircuitVerse/CircuitVerse/pull/402) and SEO [#406](https://github.com/CircuitVerse/CircuitVerse/pull/406) to our website. In the [previous](http://ankitkataria.co/journal/phase-2-init.html) blog, I had mentioned that we had decided to go with implementing search with both Postgres and sunspot. This week I was working on getting the Postgres part done. I extended pg_search support to the User model and did the required UI changes to accommodate both User and Project search. Also, Postgres bindings were added so that Projects could be found with author names and tags. Here's what the supercharged search bar looks like - 
 
 <p align="center">
 	<img src="/assets/img/search_bar_1.png" width="80%">

@@ -18,7 +18,7 @@ This summer my aim was to do several feature additions to increase the overall u
 
 Checkout out my proposal [here](https://drive.google.com/file/d/1CfuZy3gKnx52qWLfl0ARxzE2hcdc-Tmq/view?usp=sharing)!
 
-Also, checkout the blog series I did on my awesome journey [here](https://ankitkataria.me/archive/)!
+Also, checkout the blog series I did on my awesome journey [here](https://ankitkataria.co/archive/)!
 
 ## Code
 
@@ -30,7 +30,7 @@ Pull Requests:
 [#148](https://github.com/CircuitVerse/CircuitVerse/pull/148), [#241](https://github.com/CircuitVerse/CircuitVerse/pull/241), [#391](https://github.com/CircuitVerse/CircuitVerse/pull/403), [#403](https://github.com/CircuitVerse/CircuitVerse/pull/403) (All merged)
 
 Blog post: 
-[GSoC ‘19 with CircuitVerse](https://ankitkataria.me/journal/gsoc-19-with-circuitverse.html)
+[GSoC ‘19 with CircuitVerse](https://ankitkataria.co/journal/gsoc-19-with-circuitverse.html)
 
 Coveralls report: [github/CircuitVerse](https://coveralls.io/github/CircuitVerse/CircuitVerse)
 
@@ -44,7 +44,7 @@ This feature addition allowed group mentors to easily grade mentee submissions o
 
 Pull Requests: [#390](https://github.com/CircuitVerse/CircuitVerse/pull/390), [#395](https://github.com/CircuitVerse/CircuitVerse/pull/395) (All merged)
 
-Blog post: [Init: Assignment Grading](https://ankitkataria.me/journal/week-2-gsoc.html)
+Blog post: [Init: Assignment Grading](https://ankitkataria.co/journal/week-2-gsoc.html)
 
 <p align="center">
 	<img src="/assets/img/assignment-grading.gif" width="100%">
@@ -57,7 +57,7 @@ This feature addition gave mentors a way to restrict the circuit elements used i
 Pull Requests: 
 Code merged in [#397](https://github.com/CircuitVerse/CircuitVerse/pull/397) ( [#392](https://github.com/CircuitVerse/CircuitVerse/pull/392) Original PR)
 
-Blog post: [Init Restricted Circuit Elements](https://ankitkataria.me/journal/week-3-gsoc.html)
+Blog post: [Init Restricted Circuit Elements](https://ankitkataria.co/journal/week-3-gsoc.html)
 
 <p align="center">
 	<img src="/assets/img/restricted-circuit-elements.gif" width="100%">
@@ -76,7 +76,7 @@ There was a very basic SEO implementation in the present codebase. After extensi
 
 Pull request: [#406](https://github.com/CircuitVerse/CircuitVerse/pull/406)(Merged)
 
-Blog post: [`rake search:begin`](https://ankitkataria.me/journal/search-engine-and-seo.html)
+Blog post: [`rake search:begin`](https://ankitkataria.co/journal/search-engine-and-seo.html)
 
 Research Doc: [SEO Analysis](https://docs.google.com/document/d/1twGajCuVEA3vTkbfBgS2Eiof7bnecj2qek5Fh67S8IU/edit?usp=sharing)
 
@@ -87,7 +87,7 @@ A very basic Postgres based full-text existed for projects. I worked on extendin
 
 Pull Request: [#402](https://github.com/CircuitVerse/CircuitVerse/pull/402) (Merged)
 
-Blog post: [Re-Searching Search](https://ankitkataria.me/journal/phase-2-init.html), [Adapters, Factories and Search](https://ankitkataria.me/journal/search-adapter-implementation.html)
+Blog post: [Re-Searching Search](https://ankitkataria.co/journal/phase-2-init.html), [Adapters, Factories and Search](https://ankitkataria.co/journal/search-adapter-implementation.html)
 
 Research Doc: [Search Analysis](https://docs.google.com/document/d/1VRNwmH76OQ6ayNwdr6yBoyPL3B-VcNENjogYEvAw8fY/edit?usp=sharing)
 
@@ -114,7 +114,7 @@ Pull requests:
 
 - *Feature circuit botton and channel link fixes*: [#421](https://github.com/CircuitVerse/CircuitVerse/pull/421) (Merged)
 
-Blog post: [Final Phase and Bucket Lists](http://ankitkataria.me/journal/final-phase-and-bucket-lists.html)
+Blog post: [Final Phase and Bucket Lists](http://ankitkataria.co/journal/final-phase-and-bucket-lists.html)
 
 ### Work left
 
