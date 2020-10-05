@@ -2,7 +2,7 @@
 
 paginate:            5
 paginate_path: "/page/page:num/"
-url: https://ankitkataria.co
+url: https://ankitkataria.github.io/
 
 # Build settings
 markdown:            kramdown
